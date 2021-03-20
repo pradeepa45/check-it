@@ -29,7 +29,7 @@ function readFile(input){
     };
 
 
-    let url1 = "https://api.textgears.com/spelling?key=zmeWUWHyKUYTqHFy&text="+inputText+"&language=en-GB";
+    let url1 = "https://api.textgears.com/spelling?key=1gVny1rfj02gy7kY&text="+inputText+"&language=en-GB";
     let req1 = new XMLHttpRequest();
     req1.open("GET",url1);
     req1.send();
@@ -39,7 +39,7 @@ function readFile(input){
     }
 
 
-    let url2 = "https://api.textgears.com/spelling?key=zmeWUWHyKUYTqHFy&text="+inputText+"&language=en-GB";
+    let url2 = "https://api.textgears.com/spelling?key=1gVny1rfj02gy7kY&text="+inputText+"&language=en-GB";
     let req2 = new XMLHttpRequest();
     req2.open("GET",url2);
     req2.send();

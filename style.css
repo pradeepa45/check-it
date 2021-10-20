@@ -47,7 +47,8 @@ div.item.suggestion-list{
     background: url('cool-background.png');
     padding: 40px 20px;
     /* position: fixed; */
-    background-repeat: repeat-x;
+    background-repeat: repeat;
+    min-height: 100vh;
     /* background-attachment: fixed; */
 }
 
